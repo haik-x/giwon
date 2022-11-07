@@ -3,8 +3,8 @@
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
 
-**/shaders/* linguist-vendored
-**/cginc/* linguist-vendored
+shaders/* linguist-vendored
+
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
