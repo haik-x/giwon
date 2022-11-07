@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class pickFlashlight : MonoBehaviour
 {
-    //inttext
-   public GameObject flashlight_table, flashlight_hand;
+    
+    public GameObject flashlight_table, flashlight_hand, inttext;
     public AudioSource pickup;
     public bool interactable;
 
@@ -13,8 +13,7 @@ public class pickFlashlight : MonoBehaviour
     {
         if (other.CompareTag("MainCamera"))
         {
-            //inttext.SetActive(true);
-            Debug.Log("Que pedo");
+            inttext.SetActive(true);
             interactable = true;
         }
     }
@@ -22,7 +21,7 @@ public class pickFlashlight : MonoBehaviour
     {
         if (other.CompareTag("MainCamera"))
         {
-            //inttext.SetActive(false);
+            inttext.SetActive(false);
             interactable = false;
         }
     }
@@ -32,7 +31,7 @@ public class pickFlashlight : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                //inttext.SetActive(false);
+                inttext.SetActive(false);
                 interactable = false;
                 //pickup.Play();
                 flashlight_hand.SetActive(true);
