@@ -13,6 +13,6 @@ Follow the below instructions to get started with Red Runner source code:
 * Open Project in Unity and Enjoy!  
 ## Requirements
 
-Make sure you have the below requirements before starting:
+Make sure you satisfy the below requirements before starting:
 
 * Unity Game Engine
