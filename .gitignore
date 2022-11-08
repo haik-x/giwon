@@ -4,6 +4,7 @@
 #
 
 Assets/TextMesh?Pro/* linguist-vendored
+**/shaders/* linguist-vendored
 
 /[Ll]ibrary/
 /[Tt]emp/
