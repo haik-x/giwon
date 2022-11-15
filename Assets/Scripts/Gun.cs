@@ -23,10 +23,10 @@ public class Gun : MonoBehaviour
             if(hit.transform.CompareTag("Enemy")){
                 GameObject go = Instantiate(impact,hit.point,Quaternion.LookRotation(hit.normal));
                 Debug.Log("You shot poor Slender");
-            }else if(hit.transform.CompareTag("Wall")){
+            }else{
                 Debug.Log("You shot the wall");
-            }
             }
         }
 
+}
 }
